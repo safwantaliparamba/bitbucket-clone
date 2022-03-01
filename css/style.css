@@ -10,6 +10,8 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+
 }
 ol, ul {
 	list-style: none;
@@ -115,7 +117,7 @@ br.clear {
 header {
 	height: 70px;
 	background: #fff;
-	padding: 16px;
+	padding: 16px 0;
 }
 section.wrapper {
 	display: flex;
@@ -153,11 +155,15 @@ header div.left ul li:last-child{
 }
 header div.left ul li a{
 	color: #0052cc;
+	font-weight: 500;
+	padding: 5px 10px;
+	font-size: 18px;
 }
 header nav.right {
 }
 header nav.right ul{
 	display: flex;
+	align-items: center;
 }
 header nav.right ul li{
 	margin-right: 24px;
@@ -165,5 +171,65 @@ header nav.right ul li{
 header nav.right ul li:last-child{
 	margin-right: 0;
 }
-header nav.right ul li a{}
-header nav.right ul li a.button{}
+header nav.right ul li a{
+	color: #0052cc;
+	font-weight: 500;
+	padding: 6px 8px;
+	font-size: 18px;
+}
+header nav.right ul li a.button{
+	border: 1px solid #0052cc;
+	border-radius:5px;
+}
+header nav.right ul li a.button:hover{
+	background:#0052cc;
+	color: #fff;
+	transition: .5s;
+}
+
+/* spotlight section  */
+#spotlight{
+	padding: 30px 0;
+	background: #f4f5f7;
+}
+#spotlight section.wrapper{
+
+}
+#spotlight section.container{
+	width: 80%;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+}
+#spotlight section.container h1{
+	font-weight: 600;
+	font-size: 46px;
+	margin-bottom: 30px;
+}
+#spotlight section.container p{
+	font-size: 1.25rem;
+    letter-spacing: .3px;
+    line-height: 1.4;
+	margin-bottom: 24px;
+}
+#spotlight section.container a.button{
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 12px 24px;
+	background: #0052cc;
+	color: #fff;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+#spotlight section.container span.label{
+	display: block;
+	letter-spacing: .5px;
+}
+#spotlight section.container span.label a {
+	color: #0052cc;
+}
+#spotlight section.container img.spotlight-image{
+	display: block;
+	width: 100%;
+}
