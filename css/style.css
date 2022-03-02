@@ -64,6 +64,7 @@ br.clear {
 }
 .wrapper {
 	width: 90%;
+	display: block;
 	margin: 0 auto;
 	max-width:1200px;
 }
@@ -191,6 +192,7 @@ header nav.right ul li a.button:hover{
 #spotlight{
 	padding: 30px 0;
 	background: #f4f5f7;
+	padding-bottom: 130px;
 }
 #spotlight section.wrapper{
 
@@ -220,11 +222,12 @@ header nav.right ul li a.button:hover{
 	background: #0052cc;
 	color: #fff;
 	border-radius: 5px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 #spotlight section.container span.label{
 	display: block;
 	letter-spacing: .5px;
+	margin-bottom: 15px;
 }
 #spotlight section.container span.label a {
 	color: #0052cc;
@@ -232,4 +235,415 @@ header nav.right ul li a.button:hover{
 #spotlight section.container img.spotlight-image{
 	display: block;
 	width: 100%;
+}
+
+/* feature section  */
+
+#features{
+	padding-bottom: 100px;
+}
+#features img{
+	transform: rotate(-180deg);
+	margin-top: -2px;
+}
+#features section.wrapper{
+	margin-top: 50px;
+}
+#features ul{
+	width: 100%;
+	display: flex;
+}
+#features ul li{
+	width: 32%;
+	text-align: center;
+}
+#features ul li img{
+	display: inline-block;
+	height: 140px;
+	margin-bottom: 30px;
+}
+#features ul li h3{
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+#features ul li p{
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: .4px;
+}
+#features ul li p a{
+	color: #0052cc;
+	text-decoration:underline;
+}
+#features ul li p a:hover{
+	text-decoration:none;
+}
+
+/* highlights section  */
+
+#hoghlights{
+	margin-top: 80px;
+}
+#highlights .wrapper{
+	display: block;
+}
+#highlights section.item{
+	margin-bottom: 80px;
+	display: flex;
+	justify-content: space-between;
+}
+#highlights section.item div.image-container{
+	width: 65%;
+}
+#highlights section.item div.image-container img{
+	width: 100%;
+	display: block;
+}
+#highlights section.item div.content-box{
+	width: 33%;
+	padding-top: 30px;
+}
+#highlights section.item div.content-box span.label{
+	display: block;
+	text-transform: uppercase;
+	font-size: 12px;
+	margin-bottom: 16px;
+	font-weight: 500;
+}
+#highlights section.item div.content-box h3{
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 24px;
+	text-transform: uppercase;
+}
+#highlights section.item div.content-box p{
+	font-size: 20px;
+	margin-bottom: 24px;
+}
+#highlights section.item div.content-box  a.btn{
+	font-size: 16px;
+	color: #0052cc;
+	font-weight: 500;
+}
+#highlights section.item div.content-box  a.btn img{
+	display: inline-block;
+}
+
+/* Resources section  */
+
+#resources {
+	background: #f4f5f7;
+	padding: 60px 0 0;
+	display: block;
+}
+#resources .wrapper {
+	display: block;
+}
+#resources section.top{
+	text-align: center;
+	margin: 0 auto;
+}
+#resources section.top h3{
+	font-size: 50px;
+	font-weight: 600;
+	margin-bottom: 16px;
+}
+#resources section.top p{
+	font-size: 20px;
+	margin-bottom: 24px;
+}
+#resources section.top ul{
+	display: flex;
+	justify-content: space-between;
+	margin: 30px auto 0;
+	width: 75%;
+}
+#resources section.top ul li{
+	width: 48%;
+	padding: 45px;
+	text-align: left;
+	background: #fff;
+	display: block;
+	border-radius: 3px;
+}
+#resources section.top ul li img.image-top{
+	height: 100px;
+	display: inline-block;
+	margin-bottom: 16px;
+}
+#resources section.top ul li h4{
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 24px;
+}
+#resources section.top ul li p{
+	font-size: 16px;
+	letter-spacing: .5px;
+	margin-bottom: 24px;
+
+}
+#resources section.top ul li a.btn{
+	color: #0052cc;
+}
+
+/* resources bottom section  */
+
+#resources section.bottom{
+	text-align: center;
+	padding: 60px 0 50px;
+}
+#resources section.bottom h3{
+	font-size: 50px;
+	font-weight: 600;
+	margin-bottom: 16px;
+}
+#resources section.bottom p{
+	font-size: 20px;
+	margin-bottom: 24px;
+}
+#resources section.bottom ul{
+	display: flex;
+	justify-content: space-between;
+}
+#resources section.bottom ul li{
+	padding: 45px;
+	text-align: left;
+	display: block;
+	border-radius: 3px;
+	width: 1fr;
+}
+#resources section.bottom ul li img{
+	display: inline-block;
+	height: 90px;
+	margin-bottom: 16px;
+}
+#resources section.bottom ul li h4{
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 16px;
+}
+#resources section.bottom ul li p{
+	font-size: 20px;
+	margin-bottom: 24px;
+}
+#resources section.bottom ul li a.btn{
+	color: #0052cc;
+}
+#resources section.bottom ul li a.btn img{
+	height: auto;
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+/* brands section  */
+#brands{
+	padding:0;
+}
+#brands img.curve{
+	transform: rotate(-180deg);
+	margin-top: -2px;
+}
+#brands section.container{
+	margin-top: 60px;
+	border-bottom: 2px solid #dbdbdb;
+	padding-bottom: 60px;
+	text-align: center;
+}
+#brands section.container h3{
+	display: block;
+	font-size: 40px;
+	font-weight: 600;
+	width: 60%;
+	margin: 0 auto 20px;
+}
+#brands section.container img{
+	max-width: 100%;
+	display: inline-block;
+}
+
+/* pricing section  */
+
+
+#pricing {
+	padding: 60px 0;
+}
+#pricing section.wrapper{
+	display: block;
+}
+#pricing section.top{
+	
+}
+#pricing section.top h3{
+	font-size: 36px;
+	font-weight: 600;
+	width: 50%;
+	margin: 0 auto 25px;
+	background: #fff;
+	text-align: center;
+
+}
+#pricing section.top ul{
+	display: flex;
+	justify-content: space-between;
+}
+#pricing section.top ul li{
+	box-shadow: 1px 1px 6px rgba(0,0,0,0.1);
+	width: 32%;
+	background: #fff;
+	text-align: center;
+}
+
+#pricing section.top ul li div.title{
+	padding: 24px 12px;
+	border-bottom: 2px solid #f4f5f7;
+}
+
+#pricing section.top ul li div.bg{
+	background: #f4f5f7;
+}
+
+#pricing section.top ul li div.title h5{
+	font-size: 24px;
+	font-weight: 600;
+}
+#pricing section.top ul li div.content{
+	padding: 40px 0;
+}
+#pricing section.top ul li div.content h4{
+	font-size: 44px;
+	font-weight: 700;
+	margin-bottom: 14px;
+}
+#pricing section.top ul li div.content span.user{
+	display: block;
+	font-size: 20px;
+	margin-bottom: 14px;
+}
+#pricing section.top ul li div.content small{
+	display: block;
+	font-size: 14px;
+	margin-bottom: 32px;
+}
+#pricing section.top ul li div.content a.btn{
+	display: inline-block;
+	padding: 12px 24px;
+	color: #0052cc;
+	border: 1px solid #0052cc;
+	border-radius: 5px;
+	margin-bottom: 24px;
+}
+
+#pricing section.top ul li div.content a.fill{
+	background: #0052cc;
+	color: #fff;
+}
+
+#pricing section.top ul li div.content span.label{
+	display: block;
+	font-size: 14px;
+	font-weight: 500;
+}
+#pricing section.top div.bottom{
+	padding: 24px;
+	margin-top: 24px;
+	text-align: center;
+	box-shadow: 1px 1px 6px rgba(0,0,0,0.1);
+}
+#pricing section.top div.bottom p{
+	font-size: 16px;
+	letter-spacing: .5px;
+	font-weight: 400;
+}
+#pricing section.top div.bottom p b{
+	font-size: 16px;
+	font-weight: 700;
+	margin-right: 15px;
+}
+#pricing section.top div.bottom p a{
+	color: #0052cc;
+	font-weight: 500;
+}
+#pricing section.top div.bottom p a:hover{
+	text-decoration: underline;
+}
+
+#pricing section.bottom{
+	padding: 30px 0;
+	text-align: center;
+}
+#pricing section.bottom a.label{
+	font-weight: 500;
+	color: #0052cc;
+	display: block;
+	font-size: 16px;
+}
+#pricing section.bottom div.content{
+	margin: 90px auto 0;
+	padding: 50px;
+	background: #f4f5f7;
+	width: 90%;
+}
+#pricing section.bottom div.content div.item{
+	display: flex;
+	justify-content: space-between;
+	text-align: left;
+	padding: 24px;
+}
+#pricing section.bottom div.content div.item div.left{
+	width: 100px;
+}
+#pricing section.bottom div.content div.item div.left img{
+	width: 100%;
+	display: inline-block;
+}
+#pricing section.bottom div.content div.item div.right{
+	width: calc(100% -160px);
+	display: block;
+	padding: 0 60px;
+}
+#pricing section.bottom div.content div.item div.right h3{
+	font-size: 36px;
+	margin-bottom: 24px;
+	font-weight: 600;
+}
+#pricing section.bottom div.content div.item div.right p{
+	font-size: 18px;
+	letter-spacing: .5px;
+	display: block;
+	margin-bottom: 24px;
+}
+#pricing section.bottom div.content div.item div.right a.btn{
+	font-weight: 500;
+	color: #0052cc;
+}
+
+/* banner section  */
+
+#banner{
+	min-height: 300px;
+	background-image: url("../images/left_bottom_hero.png") , url("../images/right_bottom_hero.png");
+	background-repeat: no-repeat , no-repeat;
+	background-position: bottom left,bottom right ;
+	background-size: 600px 300px , 600px 300px;
+	padding: 60px 0;
+	text-align: center;
+}
+#banner section.wrapper{
+	display: block;
+}
+#banner h3{
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 36px;
+}
+#banner a.btn{
+	color: #fff;
+	background: #0052cc;
+	padding: 12px 24px;
+	border: 1px solid #0052cc;
+	border-radius: 5px;
 }
