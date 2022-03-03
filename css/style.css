@@ -164,8 +164,8 @@ header div.left ul li a{
 	padding: 5px 10px;
 	font-size: 18px;
 }
-header nav.right {
-}
+/* header nav.right {
+} */
 header nav.right ul{
 	display: flex;
 	align-items: center;
@@ -198,9 +198,9 @@ header nav.right ul li a.button:hover{
 	background: #f4f5f7;
 	padding-bottom: 130px;
 }
-#spotlight section.wrapper{
+/* #spotlight section.wrapper{
 
-}
+} */
 #spotlight section.container{
 	width: 80%;
 	display: block;
@@ -414,7 +414,7 @@ header nav.right ul li a.button:hover{
 	justify-content: space-between;
 }
 #resources section.bottom ul li{
-	padding: 45px;
+	padding: 45px 0;
 	text-align: left;
 	display: block;
 	border-radius: 3px;
@@ -478,9 +478,9 @@ header nav.right ul li a.button:hover{
 #pricing section.wrapper{
 	display: block;
 }
-#pricing section.top{
+/* #pricing section.top{
 	
-}
+} */
 #pricing section.top h3{
 	font-size: 36px;
 	font-weight: 600;
@@ -675,8 +675,8 @@ footer section.top div.item h3{
 	font-weight: 600;
 	margin-bottom: 24px;
 }
-footer section.top div.item ul{
-}
+/* footer section.top div.item ul{
+} */
 footer section.top div.item ul li{
 	margin-bottom: 7px;
 }
@@ -747,7 +747,7 @@ footer section.bottom{
 	padding: 24px 0 0;
 	/* align-items: center; */
 }
-footer section.bottom div.left{}
+/* footer section.bottom div.left{} */
 footer section.bottom div.left div.top{
 	display: flex;
 	justify-content: flex-start;
@@ -777,14 +777,14 @@ footer section.bottom div.left div.top ul li a{
 footer section.bottom div.left div.top p{
 	font-weight: 300;
 }
-footer section.bottom div.left div.bottom{}
+/* footer section.bottom div.left div.bottom{} */
 footer section.bottom div.left div.bottom form{
 	margin-top: 24px;
 	font-weight: 300;
 	color: #dbdbdb;
 }
-footer section.bottom div.left div.bottom form select{}
-footer section.bottom div.right{}
+/* footer section.bottom div.left div.bottom form select{}
+footer section.bottom div.right{} */
 footer section.bottom div.right a.btn{
 	font-size: 16px;
 	color: #0052cc;
@@ -792,3 +792,208 @@ footer section.bottom div.right a.btn{
 footer section.bottom div.right a.btn:hover{
 	text-decoration: underline;
 }
+
+
+/* responsive design  */
+
+@media all and (max-width:980px) {
+	header div.left ul li {
+		margin-right: 16px;
+	}
+	header div.left ul {
+		display: none;
+	}
+	#highlights section.item {
+		flex-direction: column;
+	}
+	#highlights section.item:nth-child(even) {
+		flex-direction: column-reverse;
+	}
+	#highlights section.item div.image-container{
+		width: 100%;
+	}
+	#highlights section.item div.image-container {
+		width: 100%;
+	}
+	#highlights section.item div.content-box {
+		width: 100%;
+	}
+	footer section.bottom{
+		flex-direction: column-reverse;
+	}
+	footer section.bottom div.left{
+		width: 100%;
+	}
+	footer section.bottom div.right{
+		width: 100%;
+		margin-bottom: 24px;
+	}
+}
+
+@media all and (max-width:768px){
+
+	#spotlight{
+		padding-bottom: 40px;
+	}
+	#features{
+		padding-bottom: 60px;
+	}
+	#features ul{
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-bottom: -40px;
+	}
+	#features ul li{
+		width: 48%;
+		margin-bottom: 40px;
+	}
+	#resources section.top ul{
+		flex-wrap: wrap;
+		margin-bottom: -32px;
+	}
+	#resources section.top ul li{
+		width: 100%;
+		margin-bottom: 32px;
+	}
+	#resources section.bottom ul{
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-bottom: -40px;
+		padding: 0;
+	}
+	#resources section.bottom ul li{
+		width: 48%;
+		margin-bottom: 40px;
+	}
+	#brands section.container h3{
+		font-size: 30px;
+	}
+	#pricing section.top h3{
+		width: auto;
+		font-size: 30px;
+	}
+	#pricing section.top ul{
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	#pricing section.top ul li{
+		width: 48%;
+		margin-bottom: 40px;
+	}
+	#pricing section.top div.bottom{
+		margin-top: 0;
+	}
+	#pricing section.bottom div.content div.item{
+		flex-direction: column;
+	}
+	#pricing section.bottom div.content div.item div.right{
+		padding: 0;
+		width: 100%;
+	}
+	#pricing section.bottom div.content div.item div.left{
+		margin-bottom: 24px;
+	}
+	#banner{
+		background-image: url(../images/left_bottom_hero.png);
+		background-repeat: no-repeat ;
+		background-position: bottom left;
+		background-size: 600px 300px ;
+	}
+	footer section.bottom div.left div.top{
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	footer section.bottom div.left div.top ul{
+		margin: 16px 0;
+	}
+	
+}
+
+@media all and (max-width:640px){
+	header nav.right ul li:first-child{
+		display: none;
+	}
+	#spotlight section.container span.label{
+		line-height:2em;
+	}
+	#features ul li{
+		width: 100%;
+	}
+	#resources section.top ul{
+		width: 90%;
+	}
+	#resources section.top ul li{
+		padding: 27px;
+	}
+	#resources section.bottom ul li{
+		width: 100%;
+		margin-bottom: 24px;
+		padding: 0;
+	}
+	#resources section.bottom p{
+		margin-bottom: 50px;
+	}
+	#brands section.container h3{
+		width: 100%;
+		font-size: 25px;
+	}
+	#pricing section.top h3{
+		font-size: 29px;
+		width: 70%;
+	}
+	#pricing section.top ul li{
+		width: 100%;
+	}
+	#pricing section.bottom div.content{
+		padding: 0;
+	}
+	#pricing section.bottom div.content{
+		margin-top: 65px;
+	}
+	footer section.top{
+		flex-direction: column;
+		margin-bottom: 24px;
+		width: 100%;
+	}
+	footer section.top div.item{
+		width: 100%;
+		margin-bottom: 24px;
+	}
+	footer section.top div.item.large{
+		width: 100%;
+	}
+}
+@media all and (max-width:480px){
+	header section.wrapper{
+		justify-content: center;
+	}
+	header nav.right ul li{
+		display: none;
+	}
+	#spotlight section.container{
+		width: 100%;
+	}
+	#pricing section.bottom div.content{
+		width: 100%;
+	}
+	#banner{
+		background-image: none;
+		padding: 0;
+		background-size: none;
+	}
+	footer section.bottom div.left div.top ul{
+		flex-direction: column;
+	}
+	footer section.bottom div.left div.top ul li{
+		margin-bottom: 12px;
+		margin-right: 0;
+	}
+	footer section.top div.item form input[type="email"]{
+		margin-right: 7px;
+	}
+	#pricing section.top h3{
+		width: 100%;
+	}
+}
+@media all and (max-width:360px){}
+@media all and (max-width:320px){}
