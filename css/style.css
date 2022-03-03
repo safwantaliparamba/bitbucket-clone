@@ -118,7 +118,11 @@ br.clear {
 header {
 	height: 70px;
 	background: #fff;
-	padding: 16px 0;
+	padding: 6 0;
+	position: fixed;
+	width: 100%;
+	box-shadow: 1px 1px 6px rgba(0,0,0,0.1);
+	z-index: 3;
 }
 section.wrapper {
 	display: flex;
@@ -190,7 +194,7 @@ header nav.right ul li a.button:hover{
 
 /* spotlight section  */
 #spotlight{
-	padding: 30px 0;
+	padding: 100px 0 30px;
 	background: #f4f5f7;
 	padding-bottom: 130px;
 }
@@ -646,4 +650,145 @@ header nav.right ul li a.button:hover{
 	padding: 12px 24px;
 	border: 1px solid #0052cc;
 	border-radius: 5px;
+}
+
+/* footer section  */
+
+footer{
+	background: #f4f5f7;
+	padding: 40px 0 20px;
+}
+footer section.wrapper{
+	display: block;
+}
+footer section.top{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 16px;
+	border-bottom: 1px solid #dbdbdb;
+}
+footer section.top div.item{
+	width: 23%;
+}
+footer section.top div.item h3{
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 24px;
+}
+footer section.top div.item ul{
+}
+footer section.top div.item ul li{
+	margin-bottom: 7px;
+}
+footer section.top div.item ul li a{
+	font-size: 14px;
+	font-weight: 300;
+	letter-spacing: .8px;
+	margin-bottom: 24px;
+}
+footer section.top div.item.large{
+	width: 50%;
+}
+footer section.top div.item.large p{
+	font-size: 16px;
+	margin-bottom: 24px;
+	font-weight: 400;
+}
+footer section.top div.item.large form{
+	display: flex;
+}
+footer section.top div.item form input[type="email"]{
+	width: 100%;
+	margin-right: 24px;
+	padding: 12px 24px;
+	background: #fff;
+	border-radius: 4px;
+	border: 1px solid #c1c7d0;
+	font-size: 16px;
+}
+footer section.top div.item.large form input[type="submit"]{
+	font-size: 16px;
+	cursor: pointer;
+	color: #0052cc;
+	border: 1px solid #0052cc;
+	padding: 12px 16px;
+	border-radius: 4px;
+}
+footer section.top div.item.large div.social{
+	display: flex;
+	padding-top: 24px ;
+	justify-content: flex-end;
+	align-items: center;
+}
+footer section.top div.item.large div.social p{
+	margin-right: 24px;
+	font-size: 16px;
+}
+footer section.top div.item.large div.social ul{
+	display: flex;
+}
+footer section.top div.item.large div.social ul li{
+	margin-right: 8px;
+}
+footer section.top div.item.large div.social ul li a{
+	display: block;
+	width: 32px;
+}
+footer section.top div.item.large div.social ul li a img{
+	width: 100%;
+	display: block;
+}
+
+
+
+footer section.bottom{
+	display: flex;
+	justify-content: space-between;
+	padding: 24px 0 0;
+	/* align-items: center; */
+}
+footer section.bottom div.left{}
+footer section.bottom div.left div.top{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+footer section.bottom div.left div.top h1.left{
+	width: 120px;
+	margin-right: 24px;
+}
+footer section.bottom div.left div.top h1.left a{
+	width: 100%;display: block;
+}
+footer section.bottom div.left div.top h1.left a img{
+	width: 100%;display: block;
+}
+footer section.bottom div.left div.top ul{
+	display: flex;
+	justify-content: space-between;
+}
+footer section.bottom div.left div.top ul li{
+	margin-right: 24px;
+}
+footer section.bottom div.left div.top ul li a{
+	font-weight: 300;
+	font-size: 16px;
+}
+footer section.bottom div.left div.top p{
+	font-weight: 300;
+}
+footer section.bottom div.left div.bottom{}
+footer section.bottom div.left div.bottom form{
+	margin-top: 24px;
+	font-weight: 300;
+	color: #dbdbdb;
+}
+footer section.bottom div.left div.bottom form select{}
+footer section.bottom div.right{}
+footer section.bottom div.right a.btn{
+	font-size: 16px;
+	color: #0052cc;
+}
+footer section.bottom div.right a.btn:hover{
+	text-decoration: underline;
 }
