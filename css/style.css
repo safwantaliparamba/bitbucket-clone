@@ -675,8 +675,13 @@ footer section.top div.item h3{
 	font-weight: 600;
 	margin-bottom: 24px;
 }
+<<<<<<< Updated upstream
 /* footer section.top div.item ul{
 } */
+=======
+footer section.top div.item ul{
+}
+>>>>>>> Stashed changes
 footer section.top div.item ul li{
 	margin-bottom: 7px;
 }
@@ -747,7 +752,11 @@ footer section.bottom{
 	padding: 24px 0 0;
 	/* align-items: center; */
 }
+<<<<<<< Updated upstream
 /* footer section.bottom div.left{} */
+=======
+footer section.bottom div.left{}
+>>>>>>> Stashed changes
 footer section.bottom div.left div.top{
 	display: flex;
 	justify-content: flex-start;
@@ -777,20 +786,30 @@ footer section.bottom div.left div.top ul li a{
 footer section.bottom div.left div.top p{
 	font-weight: 300;
 }
+<<<<<<< Updated upstream
 /* footer section.bottom div.left div.bottom{} */
+=======
+footer section.bottom div.left div.bottom{}
+>>>>>>> Stashed changes
 footer section.bottom div.left div.bottom form{
 	margin-top: 24px;
 	font-weight: 300;
 	color: #dbdbdb;
 }
+<<<<<<< Updated upstream
 /* footer section.bottom div.left div.bottom form select{}
 footer section.bottom div.right{} */
+=======
+footer section.bottom div.left div.bottom form select{}
+footer section.bottom div.right{}
+>>>>>>> Stashed changes
 footer section.bottom div.right a.btn{
 	font-size: 16px;
 	color: #0052cc;
 }
 footer section.bottom div.right a.btn:hover{
 	text-decoration: underline;
+<<<<<<< Updated upstream
 }
 
 
@@ -997,3 +1016,6 @@ footer section.bottom div.right a.btn:hover{
 }
 @media all and (max-width:360px){}
 @media all and (max-width:320px){}
+=======
+}
+>>>>>>> Stashed changes
